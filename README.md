@@ -9,7 +9,7 @@ The procedure is basically the same as for adding, however you require less step
 
 **2.** Rename the **zzz_expanded_mod_family_missions_expanded.gfx** file in the *interface* folder accordingly to your mod (aka replace the "missions" accordingly, e.g. with "subjects", "governments", "national_ideas", etc.).
 
-**3.** Open that file and do the same for the entry. **Note that there are two instances here that you have to change, in the *name* line and in the *textureFile* line.** This will ensure that the icon with the green checkmark is shown for your mod, when your mod is active.
+**3.** Open that file and do the same for the entry. **Note that there are two instances here that you have to change, in the *name* line and in the *textureFile* line.** This will ensure that the icon with the green checkmark is shown for your mod, when it is active.
   ```
   spriteTypes = {
 	  # Mod Icon:
