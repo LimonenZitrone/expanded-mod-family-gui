@@ -1,10 +1,10 @@
 # Expanded Mod Family GUI
 The files required for the GUI in the lobby that displays all Expanded Mods and which are active.
 
-## How to use
+## How to add
 **1.** Copy all folders in your mod, overwrite files if needed (if you have an older version already in your mod, otherwise merge conflicting files).
 
-**2.** Rename the **zzz_expanded_mod_family_missions_expaneded.gfx** file in the *interface* folder accordingly to your mod (aka replace the "missions" accordingly, e.g. with "subjects", "governments", "national_ideas", etc.).
+**2.** Rename the **zzz_expanded_mod_family_missions_expanded.gfx** file in the *interface* folder accordingly to your mod (aka replace the "missions" accordingly, e.g. with "subjects", "governments", "national_ideas", etc.).
 
 **3.** Open that file and do the same for the entry. This will ensure that, if your mod is active, the icon with the green checkmark is shown for it.
   ```
@@ -36,3 +36,6 @@ The files required for the GUI in the lobby that displays all Expanded Mods and 
    l_english:
     MOD_TEXT_NATIONAL_IDEAS_EXPANDED: "§GNational Ideas Expanded§!"
    ```
+
+## How to update
+The procedure is basically the same as for adding, however you require less steps. You do not have to copy the files again that are specifically for one mod, so **zzz_expanded_mod_family_missions_expanded.gfx** and **\_expanded_mod_family_missions_expanded_l_english.yml**. You do not have to do those steps again. Otherwise you just copy the other files over and overwrite/merge conflicting files.
