@@ -6,7 +6,7 @@ The files required for the GUI in the lobby that displays all Expanded Mods and 
 
 **2.** Rename the **zzz_expanded_mod_family_missions_expanded.gfx** file in the *interface* folder accordingly to your mod (aka replace the "missions" accordingly, e.g. with "subjects", "governments", "national_ideas", etc.).
 
-**3.** Open that file and do the same for the entry. This will ensure that, if your mod is active, the icon with the green checkmark is shown for it.
+**3.** Open that file and do the same for the entry. This will ensure that, if your mod is active, the icon with the green checkmark is shown for it. **Note that there are two instances here that you have to change, in the *name* line and in the *textureFile* line.**
   ```
   spriteTypes = {
 	  # Mod Icon:
