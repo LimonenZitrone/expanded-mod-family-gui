@@ -39,4 +39,4 @@ The procedure is basically the same as for adding, however you require less step
    l_english:
     MOD_TEXT_NATIONAL_IDEAS_EXPANDED: "§GNational Ideas Expanded§!"
    ```
- 
+
