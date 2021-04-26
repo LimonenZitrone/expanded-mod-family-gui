@@ -223,12 +223,53 @@ guiTypes = {
 					position = { x= 0 y = 20 }
 					Orientation = "UPPER_LEFT"
 				}
+			}
+
+			### MAIN MENU PANEL (upperright)
+			windowType = {
+				name ="mainmenu_panel_upperright"
+				backGround=""
+				position = { x=0 y =-1 }
+				show_position = { x=0 y =-1 }
+				hide_position = { x=200 y =-1 }
+				animation_type = "decelerated"
+				animation_time = 300
+				size = { x=1024 y =768}
+				moveable = 0
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				upsound = ""
+				downsound = ""
+				fullscreen=yes
+				Orientation = "UPPER_LEFT"
+
+				iconType =
+				{
+					name ="frontend_dev_logo"
+					spriteType = "GFX_frontend_dev_logo"
+					position = { x= -155 y = 15 }
+					Orientation = "UPPER_RIGHT"
+				}
 
 				# EXPANDED MOD FAMILY GUI START
 				## Window with Mod Icons
 				windowType = {
 					name = "expanded_mod_family_window"
-					position = { x = 150 y = 190 }
+					if_resolution = {
+						min_height = 1080
+						position = { x = 115 y = 190 }
+					}
+					if_resolution = {
+						max_height = 1079
+						min_height = 1050
+						position = { x = 115 y = 180 }
+					}
+					if_resolution = {
+						max_height = 1049
+						position = { x = -550 y = 200 }
+						orientation = upper_right
+					}
 
 					iconType = {
 						name = "expanded_mod_family_window_bg"
@@ -581,35 +622,6 @@ guiTypes = {
 					}
 				}
 				# EXPANDED MOD FAMILY GUI END
-			}
-
-			### MAIN MENU PANEL (upperright)
-			windowType = {
-				name ="mainmenu_panel_upperright"
-				backGround=""
-				position = { x=0 y =-1 }
-				show_position = { x=0 y =-1 }
-				hide_position = { x=200 y =-1 }
-				animation_type = "decelerated"
-				animation_time = 300
-				size = { x=1024 y =768}
-				moveable = 0
-				dontRender = ""
-				horizontalBorder= ""
-				verticalBorder= ""
-				upsound = ""
-				downsound = ""
-				fullscreen=yes
-				Orientation = "UPPER_LEFT"
-
-				iconType =
-				{
-					name ="frontend_dev_logo"
-					spriteType = "GFX_frontend_dev_logo"
-					position = { x= -155 y = 15 }
-					Orientation = "UPPER_RIGHT"
-				}
-
 			}
 
 			### NEW CONTENT AVAILABLE.
