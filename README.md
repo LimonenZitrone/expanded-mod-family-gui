@@ -40,3 +40,4 @@ The procedure is basically the same as for adding, however you require less step
     MOD_TEXT_NATIONAL_IDEAS_EXPANDED: "§GNational Ideas Expanded§!"
    ```
 
+**8.** If your mod includes localisation for other languages (e.g. German, French, Spanish), meaning your mod can be played in this language properly, make sure to also create the file from step 7 for the specific languages. You can easily do that by copying the file from step 7 and renaming it accordingly as well as changing the first line in the file accordingly.
