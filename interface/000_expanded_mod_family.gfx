@@ -10,10 +10,6 @@ spriteTypes = {
 
 	# Mod Icons:
 	spriteType = {
-		name = "GFX_mod_icon_development_expanded"
-		textureFile = "gfx/interface/expanded_mod_family/development_expanded_icon.dds"
-	}
-	spriteType = {
 		name = "GFX_mod_icon_governments_expanded"
 		textureFile = "gfx/interface/expanded_mod_family/governments_expanded_icon.dds"
 	}
@@ -28,10 +24,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mod_icon_trade_goods_expanded"
 		textureFile = "gfx/interface/expanded_mod_family/trade_goods_expanded_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_mod_icon_mercenary_companies_expanded"
-		textureFile = "gfx/interface/expanded_mod_family/mercenary_companies_expanded_icon.dds"
 	}
 	spriteType = {
 		name = "GFX_mod_icon_ages_and_splendor_expanded"
