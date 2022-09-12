@@ -20,7 +20,7 @@ The procedure is basically the same as for adding, however you require less step
   }
   ```
 
-**4.** Open the **expanded_mod_family_l_english.yml** file in the *localisation* folder and copy the specific line of your mod, e.g. **MOD_TEXT_TRADE_GOODS_EXPANDED: "§YTrade Goods§!"** for the *Trade Goods Expanded* mod.
+**4.** Open the **expanded_mod_family_l_english.yml** file in the *localisation/expanded_mod_family* folder and copy the specific line of your mod, e.g. **MOD_TEXT_TRADE_GOODS_EXPANDED: "§YTrade Goods§!"** for the *Trade Goods Expanded* mod.
 
 **5.** Rename the **\_expanded_mod_family_subjects_expanded_l_english.yml** file in the *localisation/replace* folder accordingly to your mod (aka replace the "subjects" accordingly, e.g. with "trade_goods", "governments", "historical_ideas", etc.).
 
