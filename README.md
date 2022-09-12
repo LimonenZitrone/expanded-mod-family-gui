@@ -20,16 +20,16 @@ The procedure is basically the same as for adding, however you require less step
   }
   ```
 
-**4.** Open the **expanded_mod_family_l_english.yml** file in the *localisation* folder and copy the specific line of your mod, e.g. **MOD_TEXT_NATIONAL_IDEAS_EXPANDED: "§YNational Ideas Expanded§!"** for the *National Ideas Expanded* mod.
+**4.** Open the **expanded_mod_family_l_english.yml** file in the *localisation* folder and copy the specific line of your mod, e.g. **MOD_TEXT_SUBJECTS_EXPANDED: "§YSubjects Expanded§!"** for the *Subjects Expanded* mod.
 
-**5.** Rename the **\_expanded_mod_family_missions_expanded_l_english.yml** file in the *localisation/replace* folder accordingly to your mod (aka replace the "missions" accordingly, e.g. with "subjects", "governments", "national_ideas", etc.).
+**5.** Rename the **\_expanded_mod_family_missions_expanded_l_english.yml** file in the *localisation/replace* folder accordingly to your mod (aka replace the "missions" accordingly, e.g. with "subjects", "governments", "advisor_types", etc.).
 
 **6.** Open that file and replace the existing mod line with the copied line from step **4**.
 
  For example:
    ```
    l_english:
-    MOD_TEXT_NATIONAL_IDEAS_EXPANDED: "§YNational Ideas Expanded§!"
+    MOD_TEXT_SUBJECTS_EXPANDED: "§YSubjects Expanded§!"
    ```
 
 **7.** Exchange the **§Y** in that line with **§G**. This will ensure that in the list the name of your mod is highlighted in green, when it is active.
@@ -37,7 +37,7 @@ The procedure is basically the same as for adding, however you require less step
  For example:
    ```
    l_english:
-    MOD_TEXT_NATIONAL_IDEAS_EXPANDED: "§GNational Ideas Expanded§!"
+    MOD_TEXT_SUBJECTS_EXPANDED: "§GSubjects Expanded§!"
    ```
 
 **8.** If your mod includes localisation for other languages (e.g. German, French, Spanish), meaning your mod can be played in this language properly, make sure to also create the file from step **7** for the specific languages. You can easily do that by copying the file from step **7** and renaming it accordingly (aka replace "english" accordingly, e.g. with "german") as well as changing the first line in the file accordingly.
