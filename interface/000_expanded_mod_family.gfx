@@ -14,10 +14,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/expanded_mod_family/governments_expanded_icon.dds"
 	}
 	spriteType = {
-		name = "GFX_mod_icon_missions_expanded"
-		textureFile = "gfx/interface/expanded_mod_family/missions_expanded_icon.dds"
-	}
-	spriteType = {
 		name = "GFX_mod_icon_subjects_expanded"
 		textureFile = "gfx/interface/expanded_mod_family/subjects_expanded_icon.dds"
 	}
@@ -48,5 +44,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mod_icon_advisor_types_expanded"
 		textureFile = "gfx/interface/expanded_mod_family/advisor_types_expanded_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_mod_icon_historical_ideas_expanded"
+		textureFile = "gfx/interface/expanded_mod_family/historical_ideas_expanded_icon.dds"
 	}
 }
