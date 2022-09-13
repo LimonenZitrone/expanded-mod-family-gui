@@ -25,7 +25,7 @@ The procedure is basically the same as for adding, however you require less step
 **5.** Rename the **\_expanded_mod_family_subjects_expanded_l_english.yml** file in the *localisation/replace* folder accordingly to your mod (aka replace the "subjects" accordingly, e.g. with "trade_goods", "governments", "historical_ideas", etc.).
 
 **6.** Open that file and replace the existing mod line with the copied line from step **4**.
-
+ 
  For example:
    ```
    l_english:
